@@ -1,0 +1,48 @@
+{
+  "name": "Online Food",
+  "short_name": "OnlineFood",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#FFE9D2",
+  "theme_color": "#FFE1C4",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": true,
+  "icons": [
+    {
+      "src": "/img/icons/order-food-16px.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "/img/icons/order-food-24px.png",
+      "type": "image/png",
+      "sizes": "24x24"
+    },
+    {
+      "src": "/img/icons/order-food-32px.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "/img/icons/order-food-64px.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "/img/icons/order-food-128px.png",
+      "type": "image/png",
+      "sizes": "128x128",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/img/icons/order-food-256px.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "/img/icons/order-food-512px.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
