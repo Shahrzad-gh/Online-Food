@@ -55,56 +55,11 @@
   <!--recipes-->
   <div class="recipes container  grey-text text-darken-1">
     <h6 class="center">Food Recipes</h6>
-    <div class="card-panel recipe white row">
-      <img src="img/dish.png" alt="recipe thumb" />
-      <div class="recipe-details">
-        <div class="recipe-title">Edame Noodles</div>
-        <div class="recipe-ingredients">Edame, Beans, Noodles, Garlic, Oil</div>
-      </div>
-      <div class="recipe-delete">
-        <i class="material-icons">delete_outline</i>
-      </div>
-    </div>
-    <div class="card-panel recipe white row">
-      <img src="img/dish.png" alt="recipe thumb" />
-      <div class="recipe-details">
-        <div class="recipe-title">Edame Noodles</div>
-        <div class="recipe-ingredients">Edame, Beans, Noodles, Garlic, Oil</div>
-      </div>
-      <div class="recipe-delete">
-        <i class="material-icons">delete_outline</i>
-      </div>
-    </div>
-    <div class="card-panel recipe white row">
-      <img src="img/dish.png" alt="recipe thumb" />
-      <div class="recipe-details">
-        <div class="recipe-title">Edame Noodles</div>
-        <div class="recipe-ingredients">Edame, Beans, Noodles, Garlic, Oil</div>
-      </div>
-      <div class="recipe-delete">
-        <i class="material-icons">delete_outline</i>
-      </div>
-    </div>
-    <div class="card-panel recipe white row">
-      <img src="img/dish.png" alt="recipe thumb" />
-      <div class="recipe-details">
-        <div class="recipe-title">Edame Noodles</div>
-        <div class="recipe-ingredients">Edame, Beans, Noodles, Garlic, Oil</div>
-      </div>
-      <div class="recipe-delete">
-        <i class="material-icons">delete_outline</i>
-      </div>
-    </div>
-    <div class="card-panel recipe white row">
-      <img src="img/dish.png" alt="recipe thumb" />
-      <div class="recipe-details">
-        <div class="recipe-title">Edame Noodles</div>
-        <div class="recipe-ingredients">Edame, Beans, Noodles, Garlic, Oil</div>
-      </div>
-      <div class="recipe-delete">
-        <i class="material-icons">delete_outline</i>
-      </div>
-    </div>
+
+
+
+
+
 
   </div>
 
@@ -132,8 +87,34 @@
       </div>
     </form>
   </div>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+  <script>
+    //Import the functions you need from the SDKs you need
+    // import { initializeApp } from "firebase/app";
+    // import { getAnalytics } from "firebase/analytics";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries -->
 
+    // < !-- // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional -->
+    const firebaseConfig = {
+      apiKey: "AIzaSyB1xByuPSB6ydZrs0MTBzj1E1irQ_Dtkxs",
+      authDomain: "online-food-b82eb.firebaseapp.com",
+      projectId: "online-food-b82eb",
+      storageBucket: "online-food-b82eb.appspot.com",
+      messagingSenderId: "1089691022476",
+      appId: "1:1089691022476:web:95dae1d00a9a43aeedf7a9",
+      measurementId: "G-526Z2TKXW2"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    // const analytics = getAnalytics(app);
+    const db = firebase.firestore();
+  </script>
   <script src="/js/ui.js"></script>
+  <script src="/js/db.js"></script>
   <script src="/js/app.js"></script>
 </body>
 
